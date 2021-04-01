@@ -1,0 +1,6 @@
+function init(self)
+	-- enable particles
+	particlefx.play("#trail")  
+	--animate X position
+	go.animate(".", "position.x", go.PLAYBACK_LOOP_FORWARD, 100, go.EASING_LINEAR, 1) 
+end
